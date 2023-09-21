@@ -4,7 +4,7 @@ import { Avatar, Box, Button, Flex, FormControl, FormLabel, Input, Modal, ModalB
 import { HomeSection } from "./ui";
 import { useEffect, useState } from "react";
 import Cookies from 'js-cookie'
-import Axios from '../Helpers/Axios'
+import Axios from './Helpers/Axios'
 
 export default function HomePage() {
 
