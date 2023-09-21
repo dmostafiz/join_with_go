@@ -12,8 +12,12 @@ import {
 } from "@chakra-ui/react";
 import { Formik, Form, Field } from "formik";
 import React from "react";
+import useRegister from "../Hooks/useRegister";
 
 const JoinForm = () => {
+
+  const { handleSubmit } = useRegister()
+
   return (
     <Flex
       bgImage="url('/img/form_bg.png')"
@@ -102,7 +106,8 @@ const JoinForm = () => {
               number: "",
             }}
             onSubmit={(values) => {
-              console.log(values);
+              // console.log(values);
+              handleSubmit(onOpen, values)
             }}
           >
             <Form>
