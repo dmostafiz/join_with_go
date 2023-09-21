@@ -78,19 +78,6 @@ export default function HomePage() {
   }
 
 
-  const [lang, setLang] = useState('eng')
-
-  useEffect(() => {
-    const langCookie = Cookies.get('lang')
-
-    if (typeof langCookie == 'undefined' || !langCookie) {
-      languageModal.onOpen()
-    } else {
-      setLang(langCookie)
-    }
-
-  }, [])
-
   return (
     <>
       <HomeSection.Navbar />
