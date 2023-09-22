@@ -71,13 +71,6 @@ export default function useRegister() {
                 duration: 9000,
                 isClosable: true,
             })
-
-            Cookies.remove('sponsor')
-
-            setTimeout(() => {
-                window.location.href = `/`
-            }, 500)
-
         }
 
     }
