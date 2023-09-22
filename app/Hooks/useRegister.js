@@ -45,7 +45,7 @@ export default function useRegister() {
 
 
 
-        const res = await Axios.post('/join_with_go', {
+        const res = await Axios.post('/contact/join_with_go', {
             first_name: firstName,
             last_name: lastName,
             email: email,
