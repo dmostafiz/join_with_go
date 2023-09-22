@@ -30,21 +30,21 @@ const Navbar = () => {
     },
   ];
   const navText = [
-    {
-      text: "Home",
-    },
-    {
-      text: "About",
-    },
-    {
-      text: "Services",
-    },
-    {
-      text: "Testimonial",
-    },
-    {
-      text: "Contact",
-    },
+    // {
+    //   text: "Home",
+    // },
+    // {
+    //   text: "About",
+    // },
+    // {
+    //   text: "Services",
+    // },
+    // {
+    //   text: "Testimonial",
+    // },
+    // {
+    //   text: "Contact",
+    // },
   ];
   return (
     <Stack bg="#071c09" justify="space-evenly">
@@ -92,7 +92,7 @@ const Navbar = () => {
                 {nav.text}
               </Text>
             ))}
-            <Icon as={Search2Icon} color="white" />
+            {/* <Icon as={Search2Icon} color="white" /> */}
           </HStack>
         </HStack>
       </Container>

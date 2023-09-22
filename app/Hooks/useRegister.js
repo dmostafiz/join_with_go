@@ -45,24 +45,23 @@ export default function useRegister() {
 
 
 
-        const res = await Axios.post('/contact', {
+        const res = await Axios.post('/join_with_go', {
             first_name: firstName,
             last_name: lastName,
             email: email,
             phone_number: number,
-            sponsorId: sponsor,
-            contactHost: 'my_freedom'
+            sponsorId: sponsor
         })
 
         if (res?.data?.ok) {
             Cookies.remove('sponsor')
 
-            if (res?.data?.credentials) {
-                const credentials = res?.data?.credentials
-                return window.location.href = `https://shopxcelerate.com/redirected?xcelerate_id=${credentials?.xcelerate_id}&xcelerate_pass=${credentials?.xcelerate_pass}&godesana_id=${credentials?.godesana_id}&godesana_pass=${credentials?.godesana_pass}`
-            } else {
-                window.location.href = `https://shopxcelerate.com/`
-            }
+            return window.location.href = `https://my.godesana.com/GreenOrganics/member_new/default.asp`
+            // if (res?.data?.credentials) {
+            //     const credentials = res?.data?.credentials
+            // } else {
+            //     window.location.href = `https://shopxcelerate.com/`
+            // }
 
         } else {
             toast({
