@@ -14,7 +14,7 @@ import { Formik, Form, Field } from "formik";
 import React from "react";
 import useRegister from "../Hooks/useRegister";
 
-const JoinForm = () => {
+const JoinForm = ({onOpen}) => {
 
   const { handleSubmit } = useRegister()
 

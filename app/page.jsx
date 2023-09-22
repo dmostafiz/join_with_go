@@ -84,7 +84,7 @@ export default function HomePage() {
       <HomeSection.Hero />
       <HomeSection.Essential />
       <HomeSection.VideoSection />
-      <HomeSection.JoinForm />
+      <HomeSection.JoinForm onOpen={sponsorModal.onOpen} />
       <HomeSection.Features />
       <HomeSection.Footer />
 
