@@ -22,11 +22,14 @@ const VideoSection = () => {
   return (
     <Stack>
       <WeSection />
-      <Container maxW="1180px">
-        <Flex direction={{ base: 'column', md: 'row' }} w="full" h="690px" gap="20" mx="auto" justify="center">
-          <Stack flex="1" color="white" maxW="541px" justify="center">
-            <Img src="./img/video.jpg" />
-          </Stack>
+      <Container maxW="7xl">
+        <Flex direction={{ base: 'column', md: 'row' }} alignItems={'center'} w="full" minH="690px" gap="20" mx="auto" justify="center">
+          {/* <Stack flex="1" color="white" maxW="541px" >
+      
+          </Stack> */}
+          <Box flex={1} justify="center">
+            <iframe className="" id="video" width={'100%'} height={360} src='https://www.youtube.com/embed/KJUqJ50g16I?si=i6k-ACf8WaSiqtZe' allowTransparency="true" autoPlay={true} allowFullScreen muted="true" />
+          </Box>
           <Stack flex="1" justify="center" maxW="600px">
             <HStack color="brand.600">
               <Flex fontSize="lg" color="brand.600" fontWeight="semibold">
