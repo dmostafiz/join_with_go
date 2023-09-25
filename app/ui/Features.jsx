@@ -57,7 +57,7 @@ const Features = () => {
 
       <Grid
         gap="4"
-        templateColumns="repeat(3, 1fr)"
+        templateColumns={{base: 'repeat(1, 1fr)', md:"repeat(3, 1fr)"}}
         alignItems="flex-start"
         mb="120px"
       >

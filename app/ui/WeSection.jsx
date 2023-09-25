@@ -53,7 +53,7 @@ const WeSection = () => {
 
   return (
     <VStack>
-      <Grid templateColumns="repeat(4,1fr)" maxW="1180px">
+      <Grid templateColumns={{base: "repeat(1,1fr)",md: "repeat(4,1fr)"}} maxW="1180px">
         {WeText.map((we, index) => (
           <HStack
             px="10"

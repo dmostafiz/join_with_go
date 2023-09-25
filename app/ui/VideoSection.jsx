@@ -23,7 +23,7 @@ const VideoSection = () => {
     <Stack>
       <WeSection />
       <Container maxW="1180px">
-        <Flex w="full" h="690px" gap="20" mx="auto" justify="center">
+        <Flex direction={{ base: 'column', md: 'row' }} w="full" h="690px" gap="20" mx="auto" justify="center">
           <Stack flex="1" color="white" maxW="541px" justify="center">
             <Img src="./img/video.jpg" />
           </Stack>

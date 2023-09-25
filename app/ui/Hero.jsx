@@ -22,27 +22,29 @@ const Hero = () => {
   };
 
   const firstContent = () => (
-    <Flex w="full" h="690px" gap="20" mx="auto" justify="center">
-      <Stack flex="1" justify="center" maxW="600px" spacing="0">
-        <Flex fontSize="48px" fontWeight="bold" lineHeight="53px">
+    <Flex direction={{base:'column', md: 'row'}} w="full" h="690px" gap="20" mx="auto" justify="center">
+
+      <Stack flex="1" justify="center" pt={{base: '450px', md: '0px'}}>
+
+        <Text fontSize={{base: '28px', md: '48px'}} fontWeight="bold" lineHeight={{base: '25px', md: '53px'}}>
           Your own
           <Text as="span" color="brand.600" ml="1">
             business
           </Text>
           .
-        </Flex>
-        <Flex fontSize="48px" fontWeight="bold" lineHeight="53px">
+        </Text>
+        <Text fontSize={{base: '28px', md: '48px'}} fontWeight="bold" lineHeight={{base: '25px', md: '53px'}}>
           Your own
           <Text as="span" color="brand.600" ml="1">
             hours.
           </Text>
-        </Flex>
-        <Flex fontSize="48px" fontWeight="bold" lineHeight="53px">
+        </Text>
+        <Text fontSize={{base: '28px', md: '48px'}} fontWeight="bold" lineHeight={{base: '25px', md: '53px'}}>
           Work from
           <Text as="span" color="brand.600" ml="1">
             anywhere
           </Text>
-        </Flex>
+        </Text>
         <Flex
           fontSize="24px"
           lineHeight="33px"
@@ -88,9 +90,11 @@ const Hero = () => {
           <Img src="/icons/button.svg" alt="Right Icon" w="9" h="9" />
         </Button>
       </Stack>
+
       <Stack flex="1" color="white" maxW="590px" justify="center">
         <Img src="/img/about1.jpg" minH="510px" />
       </Stack>
+
     </Flex>
   );
 

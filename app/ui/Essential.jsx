@@ -8,13 +8,14 @@ const Essential = () => {
       bgRepeat="no-repeat"
       bgPosition="center"
       bgSize="cover"
-      h="707px"
+      minH="707px"
     >
       <Container maxW="1180px">
-        <Flex mx="auto" justify="center" align="center" gap="20" w="full">
+        <Flex direction={{ base: 'column-reverse', md: 'row' }} mx="auto" justify="center" align="center" gap="20" w="full">
           <Stack flex="1" color="white" maxW="541px" justify="center" mt="-8">
             <Img src="/img/about11.png" h="full" />
           </Stack>
+
           <Stack flex="1" justify="center" maxW="600px">
             <Text
               color="white"
