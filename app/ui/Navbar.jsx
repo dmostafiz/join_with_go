@@ -51,7 +51,7 @@ const Navbar = () => {
       <Container maxW="1180px">
         <HStack justify="space-between" h="94px">
           <Flex>
-            <Image w={'300px'} src="/logo.jpeg"/>
+            <Image w={'300px'} src="/logo.png"/>
           </Flex>
           <HStack spacing="12">
             {navText.map((nav) => (
