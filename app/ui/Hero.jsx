@@ -67,15 +67,14 @@ const Hero = () => {
           fontSize="18px"
           fontWeight="medium"
         >
-          {/* Essential oils are a
+          Essential oils are a
           <Text as="span" fontFamily="default" mx="1">
             $
           </Text>
           22 Billion dollar industry projected to DOUBLE in the next 6 years and
-          you are just 2 steps away from potentially life changing income. */}
+          you are just 2 steps away from potentially life changing income.
 
-          We pay you commissions every week!
-          Would an extra <Text fontSize={'19px'} as={'span'} color={'orange.400'} fontWeight={'semibold'}>$</Text>2,000 + per month help?
+          
         </Text>
         <a href="/#start_now">
           <Button
