@@ -13,7 +13,7 @@ const Footer = () => {
       justify="center"
     >
       <Text fontSize="18px" fontWeight="medium">
-        Copyrught reserved by @@
+        Copyright ©️ 2023 JoinGoNow
       </Text>
     </Stack>
   );
