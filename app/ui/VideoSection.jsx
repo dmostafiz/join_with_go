@@ -39,7 +39,7 @@ const VideoSection = () => {
                 </Text>
               </Flex>
             </HStack>
-            <Text fontSize="3xl" color="black.500" fontWeight="medium">
+            <Text fontSize="3xl" color="black.500" fontWeight="bold">
               Why join the
               <Text as="span" color="brand.600" mx="1">
                 FASTEST growing team
