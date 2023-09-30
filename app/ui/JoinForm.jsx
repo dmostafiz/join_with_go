@@ -34,7 +34,7 @@ const JoinForm = ({ onOpen }) => {
         <Flex direction={{ base: 'column', md: 'row' }} gap="20" justify="center">
           <Stack maxW="600px" flex="1" color="white" justify="center">
             <Text fontSize="64px" fontWeight="bold" lineHeight="80px">
-              Join Our
+              We offer
               <HStack
                 px="1"
                 as="span"
@@ -46,7 +46,7 @@ const JoinForm = ({ onOpen }) => {
                 <Text as="span">Free</Text>
               </HStack>
               <br />
-              Global Powerline
+              Training and Support
             </Text>
             <Text fontSize="lg" mr="18">
               Thousands of people around the world are joining us every day. Get
