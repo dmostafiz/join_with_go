@@ -27,9 +27,7 @@ const Essential = () => {
                 Essential oils
               </Text>
               are a <br />
-              <Text as="span" fontFamily="default" mx-1>
-                $
-              </Text>
+              <Text fontSize={'45px'} as={'span'} color={'orange.400'} fontWeight={'semibold'}>$</Text>
               22 Billion dollar <br />
               industry
             </Text>
@@ -41,30 +39,32 @@ const Essential = () => {
               </Text>
               Start your own business today for
               <br /> under
-              <Text as="span" fontFamily="default" mx="1" color="brand.600">
-                $ 20
+              <Text as="span" fontFamily="default" mx="1" color="orange.400">
+              <Text fontSize={'19px'} as={'span'} color={'orange.400'} fontWeight={'semibold'}>$</Text>20
               </Text>
               a month
               <Text as="span" fontFamily="default" mx="1">
                 !
               </Text>
             </Text>
-            <Button
-              h="58px"
-              lineHeight="30px"
-              colorScheme="orange"
-              bg="brand.500"
-              type="submit"
-              maxW="204px"
-              mt="8"
-              borderRadius="29px"
-              display="flex"
-              justifyContent="space-between"
-              pl="9"
-            >
-              <Text fontSize="16px">Start today</Text>
-              <Img src="/icons/button.svg" alt="Right Icon" w="9" h="9" />
-            </Button>
+            <a href="/#start_now">
+              <Button
+                h="58px"
+                lineHeight="30px"
+                colorScheme="orange"
+                bg="brand.500"
+                type="submit"
+                maxW="204px"
+                mt="8"
+                borderRadius="29px"
+                display="flex"
+                justifyContent="space-between"
+                pl="9"
+              >
+                <Text fontSize="16px">Start today</Text>
+                <Img ml={3} src="/icons/button.svg" alt="Right Icon" w="9" h="9" />
+              </Button>
+            </a>
           </Stack>
         </Flex>
       </Container>

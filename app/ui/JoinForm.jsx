@@ -30,7 +30,7 @@ const JoinForm = ({ onOpen }) => {
       mr="2"
       py={6}
     >
-      <Container maxW={'7xl'}>
+      <Container maxW={'7xl'} id="start_now">
         <Flex direction={{ base: 'column', md: 'row' }} gap="20" justify="center">
           <Stack maxW="600px" flex="1" color="white" justify="center">
             <Text fontSize="64px" fontWeight="bold" lineHeight="80px">

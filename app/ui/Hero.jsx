@@ -6,6 +6,7 @@ import {
   Button,
   Container,
   Box,
+  Image,
 } from "@chakra-ui/react";
 import React from "react";
 import "slick-carousel/slick/slick.css";
@@ -22,24 +23,24 @@ const Hero = () => {
   };
 
   const firstContent = () => (
-    <Flex direction={{base:'column', md: 'row'}} w="full" h="690px" gap="20" mx="auto" justify="center">
+    <Flex direction={{ base: 'column', md: 'row' }} w="full" h={{base:"990px", md: '690'}} gap="20" mx="auto" justify="center">
 
-      <Stack flex="1" justify="center" pt={{base: '450px', md: '0px'}}>
+      <Stack flex="1" justify="center" pt={{ base: '100px', md: '0px' }}>
 
-        <Text fontSize={{base: '28px', md: '48px'}} fontWeight="bold" lineHeight={{base: '25px', md: '53px'}}>
+        <Text fontSize={{ base: '28px', md: '48px' }} fontWeight="bold" lineHeight={{ base: '25px', md: '53px' }}>
           Your own
           <Text as="span" color="brand.600" ml="1">
             business
           </Text>
           .
         </Text>
-        <Text fontSize={{base: '28px', md: '48px'}} fontWeight="bold" lineHeight={{base: '25px', md: '53px'}}>
+        <Text fontSize={{ base: '28px', md: '48px' }} fontWeight="bold" lineHeight={{ base: '25px', md: '53px' }}>
           Your own
           <Text as="span" color="brand.600" ml="1">
             hours.
           </Text>
         </Text>
-        <Text fontSize={{base: '28px', md: '48px'}} fontWeight="bold" lineHeight={{base: '25px', md: '53px'}}>
+        <Text fontSize={{ base: '28px', md: '48px' }} fontWeight="bold" lineHeight={{ base: '25px', md: '53px' }}>
           Work from
           <Text as="span" color="brand.600" ml="1">
             anywhere
@@ -66,39 +67,44 @@ const Hero = () => {
           fontSize="18px"
           fontWeight="medium"
         >
-          Essential oils are a
+          {/* Essential oils are a
           <Text as="span" fontFamily="default" mx="1">
             $
           </Text>
           22 Billion dollar industry projected to DOUBLE in the next 6 years and
-          you are just 2 steps away from potentially life changing income.
+          you are just 2 steps away from potentially life changing income. */}
+
+          We pay you commissions every week!
+          Would an extra <Text fontSize={'19px'} as={'span'} color={'orange.400'} fontWeight={'semibold'}>$</Text>2,000 + per month help?
         </Text>
-        <Button
-          h="58px"
-          lineHeight="30px"
-          colorScheme="orange"
-          bg="brand.500"
-          type="submit"
-          maxW="204px"
-          mt="10"
-          borderRadius="29px"
-          display="flex"
-          justifyContent="space-between"
-          pl="9"
-        >
-          <Text fontSize="16px">Start today</Text>
-          <Img src="/icons/button.svg" alt="Right Icon" w="9" h="9" />
-        </Button>
+        <a href="/#start_now">
+          <Button
+            h="58px"
+            lineHeight="30px"
+            colorScheme="orange"
+            bg="brand.500"
+            type="submit"
+            maxW="204px"
+            mt="10"
+            borderRadius="29px"
+            display="flex"
+            justifyContent="space-between"
+            pl="9"
+          >
+            <Text fontSize="16px">Start today</Text>
+            <Img ml={3} src="/icons/button.svg" alt="Right Icon" w="9" h="9" />
+          </Button>
+        </a>
       </Stack>
 
       <Stack flex="1" color="white" maxW="590px" justify="center">
-        <Img src="/img/about1.jpg" minH="510px" />
+        <Img src="/img/about1.jpg" minH={{md:"510px"}} />
       </Stack>
 
     </Flex>
   );
 
-  const sliderData = [firstContent(), firstContent(), firstContent()];
+  const sliderData = [firstContent()];
 
   return (
     <Container

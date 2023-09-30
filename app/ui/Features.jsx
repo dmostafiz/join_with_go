@@ -39,9 +39,7 @@ const Features = () => {
       <Box mt="200px" mb="140px" textAlign="center">
         <Text fontSize="52px" lineHeight="64px" fontWeight="bold">
           What do you get for{" "}
-          <Text as="span" fontFamily="default">
-            $
-          </Text>
+          <Text fontSize={'50px'} as={'span'} color={'orange.400'} fontWeight={'bold'}>$</Text>
           20 a month?
         </Text>
         <Text fontSize="36px" lineHeight="64px" fontWeight="medium">
@@ -57,7 +55,7 @@ const Features = () => {
 
       <Grid
         gap="4"
-        templateColumns={{base: 'repeat(1, 1fr)', md:"repeat(3, 1fr)"}}
+        templateColumns={{ base: 'repeat(1, 1fr)', md: "repeat(3, 1fr)" }}
         alignItems="flex-start"
         mb="120px"
       >

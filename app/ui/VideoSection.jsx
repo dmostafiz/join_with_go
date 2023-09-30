@@ -14,7 +14,7 @@ import WeSection from "./WeSection";
 const VideoSection = () => {
   const videoText = [
     { text: "Free to join and only $ 12.95 to upgrade and start earning" },
-    { text: "Global opportunity with $ 5.95 worldwide flat shipping" },
+    { text: `Global opportunity with $ 5.95 worldwide flat shipping` },
     { text: "Get paid 3% per level and on all Member orders" },
     { text: "Everyone that joins after you is automatically placed below you" },
   ];
