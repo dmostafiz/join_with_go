@@ -36,7 +36,7 @@ const Features = () => {
 
   return (
     <VStack w="full" mx="auto">
-      <Box mt="200px" mb="140px" textAlign="center">
+      <Box mt="50px" mb="50px" textAlign="center">
         <Text fontSize="52px" lineHeight="64px" fontWeight="bold">
           What do you get for{" "}
           <Text fontSize={'50px'} as={'span'} fontWeight={'bold'}>$</Text>
