@@ -46,7 +46,7 @@ const WeSection = () => {
           You <br /> get paid!
         </>
       ),
-      icon: "/icons/we4.svg",
+      icon: "/cash.png",
       color: "#eafdec",
     },
   ];
@@ -62,7 +62,7 @@ const WeSection = () => {
             minH="115px"
             key="index"
           >
-            <Img src={we.icon} alt={we.text} />
+            <Img h={'40px'} src={we.icon} alt={we.text} />
 
             <HStack>
               <Text
