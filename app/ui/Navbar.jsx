@@ -49,9 +49,9 @@ const Navbar = () => {
   return (
     <Stack bg="#071c09" justify="space-evenly">
       <Container maxW="1180px">
-        <HStack justify="space-between" h="150px">
+        <HStack justify="space-between" h="80px">
           <Flex>
-            <Image w={'1/2'} src="/logo.png"/>
+            <Image w={'180px'} src="/logo.png"/>
           </Flex>
           <HStack spacing="12">
             {navText.map((nav) => (
