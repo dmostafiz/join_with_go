@@ -11,7 +11,7 @@ const Essential = () => {
       minH="707px"
     >
       <Container maxW="1180px">
-        <Flex direction={{ base: 'column-reverse', md: 'row' }} mx="auto" justify="center" align="center" gap="20" w="full">
+        <Flex direction={{ base: 'column-reverse', md: 'row' }} mx="auto" justify="center" align="center" gap="20" w="full" pt={10}>
           <Stack flex="1" color="white" maxW="541px" justify="center" mt="-8">
             <Img src="/img/about11.png" h="full" />
           </Stack>
