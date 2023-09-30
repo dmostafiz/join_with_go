@@ -24,12 +24,8 @@ const Essential = () => {
               lineHeight="68px"
             >
               <Text as="span" color="brand.600" mr="1">
-                Essential oils
-              </Text>
-              are a <br />
-              <Text fontSize={'45px'} as={'span'} fontWeight={'semibold'}>$</Text>
-              22 Billion dollar <br />
-              industry
+                We pay you </Text>
+               commissions every week
             </Text>
 
             <Text color={'white'}>
