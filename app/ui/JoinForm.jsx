@@ -49,9 +49,7 @@ const JoinForm = ({ onOpen }) => {
               Training and Support
             </Text>
             <Text fontSize="lg" mr="18">
-              Thousands of people around the world are joining us every day. Get
-              your FREE position now and take advantage of the perfect timing and
-              exclusive Team Freedom digital resource kit.
+              Hundreds of people around the globe are joining us every day. Take the FREE tour today and we will include our social media marketing kit to help you get started.
             </Text>
           </Stack>
 
