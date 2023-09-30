@@ -16,7 +16,7 @@ const WeSection = () => {
     {
       text: (
         <>
-          We <br /> stock the products
+          We stock <br />  the products
         </>
       ),
       icon: "/icons/we1.svg",
@@ -25,7 +25,7 @@ const WeSection = () => {
     {
       text: (
         <>
-          We <br /> ship the products
+          We ship <br /> the products
         </>
       ),
       icon: "/icons/we2.svg",
@@ -34,7 +34,7 @@ const WeSection = () => {
     {
       text: (
         <>
-          We handle <br /> all customer service
+          We handle <br /> customer service
         </>
       ),
       icon: "/icons/we3.svg",
