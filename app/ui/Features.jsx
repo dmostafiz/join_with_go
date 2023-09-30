@@ -37,12 +37,11 @@ const Features = () => {
   return (
     <VStack w="full" mx="auto">
       <Box mt="50px" mb="50px" textAlign="center">
-        <Text fontSize="52px" lineHeight="64px" fontWeight="bold">
+        <Text fontSize={{base: '35px', md:"52px"}} lineHeight={{md:"64px"}} fontWeight="bold">
           What do you get for{" "}
-          <Text fontSize={'50px'} as={'span'} fontWeight={'bold'}>$</Text>
-          20 a month?
+          $20 a month?
         </Text>
-        <Text fontSize="36px" lineHeight="64px" fontWeight="medium">
+        <Text fontSize={{md:"36px"}} lineHeight="64px" fontWeight="medium">
           <Text as="span" fontFamily="default">
             (
           </Text>
