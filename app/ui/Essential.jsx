@@ -27,14 +27,14 @@ const Essential = () => {
                 Essential oils
               </Text>
               are a <br />
-              <Text fontSize={'45px'} as={'span'} color={'orange.400'} fontWeight={'semibold'}>$</Text>
+              <Text fontSize={'45px'} as={'span'} fontWeight={'semibold'}>$</Text>
               22 Billion dollar <br />
               industry
             </Text>
 
             <Text color={'white'}>
               We pay you commissions every week!
-              Would an extra <Text fontSize={'19px'} as={'span'} color={'orange.400'} fontWeight={'semibold'}>$</Text>2,000 + per month help?
+              Would an extra <Text fontSize={'19px'} as={'span'} fontWeight={'semibold'}>$</Text>2,000 + per month help?
             </Text>
             <a href="/#start_now">
               <Button

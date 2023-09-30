@@ -39,7 +39,7 @@ const Features = () => {
       <Box mt="200px" mb="140px" textAlign="center">
         <Text fontSize="52px" lineHeight="64px" fontWeight="bold">
           What do you get for{" "}
-          <Text fontSize={'50px'} as={'span'} color={'orange.400'} fontWeight={'bold'}>$</Text>
+          <Text fontSize={'50px'} as={'span'} fontWeight={'bold'}>$</Text>
           20 a month?
         </Text>
         <Text fontSize="36px" lineHeight="64px" fontWeight="medium">
