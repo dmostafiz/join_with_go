@@ -23,7 +23,7 @@ const Hero = () => {
   };
 
   const firstContent = () => (
-    <Flex direction={{ base: 'column', md: 'row' }} w="full" h={{base:"990px", md: '690'}} gap="20" mx="auto" justify="center">
+    <Flex direction={{ base: 'column', md: 'row' }} w="full" h={{base:"990px", md: '690'}} gap="20" mx="auto" justify="center" mt={-12}>
 
       <Stack flex="1" justify="center" pt={{ base: '100px', md: '0px' }}>
 
