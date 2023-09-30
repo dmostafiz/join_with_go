@@ -38,12 +38,6 @@ const VideoSection = () => {
                   !
                 </Text>
               </Flex>
-              <Divider
-                maxW="250px"
-                borderWidth="1px"
-                borderColor="brand.600"
-                opacity="1"
-              />
             </HStack>
             <Text fontSize="3xl" color="black.500" fontWeight="medium">
               Why join the
