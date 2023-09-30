@@ -29,7 +29,6 @@ const Essential = () => {
             </Text>
 
             <Text color={'white'}>
-              We pay you commissions every week!
               Would an extra <Text fontSize={'19px'} as={'span'} fontWeight={'semibold'}>$</Text>2,000 + per month help?
             </Text>
             <a href="/#start_now">
